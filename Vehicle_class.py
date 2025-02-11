@@ -8,7 +8,7 @@ class Vehicle:
     def get_color(self):
         return self.color
 
-    # Method to
+    # Method to return a string representation of the vehicle
     def __str__(self):
         return f"This vehicle is {self.color}"
 
